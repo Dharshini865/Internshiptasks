@@ -1,9 +1,11 @@
-//This program is to compare the length of the strings
-
-function compare(a,b)
+/*program  to compare the length of the strings
+ * if it is equal return true
+ * otherwise return false
+ */
+function compare(str1, str2)
 {
-    //check if length of two string is equal or not..
-    if(a.length=== b.length)
+   
+    if(str1.length=== str2.length)
     {
        return "true"
     }
@@ -12,5 +14,5 @@ function compare(a,b)
         return "false"
     }
 }
-let result=count("hello","world") //function call
+let result=compare("hello", "world") 
 console.log(result);
