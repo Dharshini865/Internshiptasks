@@ -1,8 +1,8 @@
 /**
- * @param {number} minutes to be raise
- * @param {number} minutes must be an natural number
- * @return {number} returns seconds of a given minutes
-*/
+ * convert minutes to seconds
+ * @param {number} minutes - minutes must be an natural number
+ * @returns {number} - returns seconds of a given minutes
+ */
 
 function minToSec(minutes) {
     return Math.floor(minutes * 60); 
