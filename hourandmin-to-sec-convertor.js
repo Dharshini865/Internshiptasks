@@ -1,7 +1,8 @@
 /**
- * @param {number} hours to be raise and must be a natural number
- * @param {number} minutes to be raise and must be a natural number
- * @return {number} return seconds of given hours and minutes
+ * convert hours and minutes to seconds
+ * @param {number} hours - hours must be a natural number
+ * @param {number} minutes - minutes must be a natural number
+ * @returns {number} - returns seconds of given hours and minutes
  */ 
 
 function hrMinToSec(hours, minutes) {
