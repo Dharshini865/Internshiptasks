@@ -1,14 +1,7 @@
-/**
- * convert age to days
- * @param {number} year - Year of Birth
- * @returns {number} - returns your calculated age to days
- */
+
 
 function ageToDays(year) {
-   /**
-     * @type {object<number>} today
-     * @type {number} leapyear
-     */
+  
     var today = new Date();
     var leapyear = 0;
 
@@ -20,10 +13,7 @@ function ageToDays(year) {
    
     }
     
-    /**
-     * @type {number} age 
-     * @type {number} nonLeapyear
-     */
+   
     var age = today.getFullYear() - year; 
     var nonLeapyear = age - leapyear;
     return Math.floor( (nonLeapyear * 365) + (leapyear * 366) ); 
