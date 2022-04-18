@@ -1,4 +1,8 @@
-
+/**
+* Convert minutes to seconds
+* @param {number} minutes - minutes
+* @returns {number} - returns seconds
+*/
 
 function minToSec(minutes) {
     return Math.floor(minutes * 60); 
