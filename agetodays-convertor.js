@@ -1,3 +1,8 @@
+/**
+* Convert age to days
+* @param {number} year - Year of Birth
+* @returns {number} - returns calculated age to days
+*/
 
 function ageToDays(year) {
     var today = new Date();
