@@ -4,6 +4,7 @@
 * @param {number} minutes - minutes
 * @returns {number} - returns seconds
 */
+
 function hrMinToSec(hours, minutes) {
     return Math.floor( (hours * 60 * 60) + (minutes * 60) ); 
 }
